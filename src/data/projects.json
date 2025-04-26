@@ -1,0 +1,13 @@
+[
+    {
+        "title":"Project A",
+        "description":"this is a development project using mern stack",
+        "imageSrc":"asset/projects/project.png"
+        
+    },
+    {
+        "title":"Project B",
+        "description":"this is a project usiing react",
+        "imageSrc":"asset/projects/project.png"
+    }
+]

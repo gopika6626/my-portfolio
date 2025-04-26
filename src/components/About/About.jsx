@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./About.module.css";
-import cursor from "../../assets/about/cursoricon.png";
+import cursor from "../../assets/about/cursorIcon.png";
 import server from "../../assets/about/serverIcon.png";
 import ui from "../../assets/about/uiIcon.png";
 

@@ -1,5 +1,131 @@
-.container{
+.container {
+    padding: 4rem 2rem;
+    background-color: #f8f9fa;
+  }
+  
+  .content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #2c3e50;
+  }
+  
+  .projectsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+  }
+  
+  /* Flip Card Styles */
+  .flipCard {
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flipCardInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .flipCard:hover .flipCardInner {
+    transform: rotateY(180deg);
+  }
+  
+  .flipCardFront,
+  .flipCardBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .flipCardFront {
+    background-color: #fff;
+    color: #333;
+    padding: 1rem;
+  }
+  
+  .flipCardBack {
+    background-color: #2c3e50;
+    color: white;
+    transform: rotateY(180deg);
+    padding: 1.5rem;
+  }
+  
+  .projectImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 1rem;
+  }
+  
+  .projectTitle {
+    font-size: 1.3rem;
+    margin: 0.5rem 0;
+    color: #2c3e50;
+  }
+  
+  .projectDescription {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .projectDescription h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .projectDescription p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+  
+  .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .techTag {
+    background-color: #3498db;
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .projectsContainer {
+      grid-template-columns: 1fr;
+    }
     
-}
+    .flipCard {
+      height: 350px;
+    }
+  }

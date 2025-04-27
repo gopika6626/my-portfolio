@@ -1,13 +1,28 @@
 [
     {
-        "title":"Project A",
-        "description":"this is a development project using mern stack",
-        "imageSrc":"asset/projects/project.png"
         
+            
+              "title": "OCR Text Scanner",
+              "description": [
+                "A lightweight web application that extracts text from uploaded images using Optical Character Recognition (OCR).",
+                "Built with a React.js frontend and a FastAPI backend, it uses EasyOCR and OpenCV for text detection and visualization.",
+                "Users can upload an image, instantly extract the text, view it, and copy it to their clipboard with a single click."
+              ],
+              "imageSrc": "/images/ocr-scanner.jpg",
+              "technologies": ["React", "FastAPI", "EasyOCR", "OpenCV"]
+            
+          
     },
     {
-        "title":"Project B",
-        "description":"this is a project usiing react",
+        "title":"Period tracker",
+        "description":"thi",
         "imageSrc":"asset/projects/project.png"
-    }
+    },
+   {   
+        "title":"crowd sense",
+        "description":"",
+        "imageSrc":"asset/projects/project.png"
+
+   }
+
 ]

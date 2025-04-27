@@ -24,12 +24,12 @@ export const About = () => {
                  <li className={styles.aboutItem}>
                     <img src = {server} alt = " serverimg "/>
                     <div className={styles.aboutItemText}>
-                        <h3>Research Enthusiast</h3>
-                        <p>
-                        Passionate about exploring cutting-edge technologies and solving real-world problems through in-depth research, innovation, and technical expertise
-                        </p>
+        <h3>Machine Learning & AI Enthusiast</h3>
+         <p>
+             Skilled in building intelligent systems using machine learning and AI techniques, with hands-on experience in model development, fine-tuning, and applying AI to solve real-world challenges through data-driven innovation.
+        </p>
+       </div>
 
-                    </div>
                  </li>
                  <li className={styles.aboutItem}>
                  <img src = {ui} alt = " uiicon "/>
@@ -39,7 +39,7 @@ export const About = () => {
                        
                         <p>
 
-                            Eager to build seamless, user-centric applications by mastering both frontend and backend technologies.Curently working on a Mern Stack Application
+                            Eager to build seamless, user-centric applications by mastering both frontend and backend technologies.
                         </p>
                     </div>
                  </li>

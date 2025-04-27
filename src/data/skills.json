@@ -20,5 +20,13 @@
     {
       "title": "Figma",
       "imageSrc": "asset/skills/figma.png"
-    }
+    },
+    {"title":"Java",
+      "imageSrc":"asset/skills/java.png"
+  },
+  {"title":"Python",
+    "imageSrc":"asset/skills/python.jpeg"
+}
+
+
   ]

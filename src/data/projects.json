@@ -8,20 +8,34 @@
                 "Built with a React.js frontend and a FastAPI backend, it uses EasyOCR and OpenCV for text detection and visualization.",
                 "Users can upload an image, instantly extract the text, view it, and copy it to their clipboard with a single click."
               ],
-              "imageSrc": "/images/ocr-scanner.jpg",
+              "imageSrc": "asset/projects/project.png",
               "technologies": ["React", "FastAPI", "EasyOCR", "OpenCV"]
             
           
     },
     {
-        "title":"Period tracker",
-        "description":"thi",
-        "imageSrc":"asset/projects/project.png"
-    },
+        "title": "Period Tracker",
+        "description": [
+          "A mobile application that helps users track menstrual cycles, predict ovulation and fertile windows, and monitor symptoms.",
+          "Features include cycle history visualization",
+          "Designed with user-friendly interface to empower women with better reproductive health awareness."
+        ],
+        "imageSrc": "asset/projects/project.png"
+        
+      },
    {   
         "title":"crowd sense",
-        "description":"",
-        "imageSrc":"asset/projects/project.png"
+        "description": ["Developed a custom object detection model for real-time threat identification using YOLOv8 and Roboflow.",
+"Handled dataset curation, annotation, model training, evaluation, and deployment with a focus on practical application and optimization."
+],
+
+        "imageSrc":"asset/projects/project.png",
+        "technologies": [
+    "Python",
+    "YOLOv8",
+    "Roboflow",
+    "OpenCV"
+  ]
 
    }
 
